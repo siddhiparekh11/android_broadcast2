@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#01579B"
+    tools:context="com.example.siddhiparekh11.farmmaintenance.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FARM MAINTENANCE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAN OFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF5252"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/button1"
+        android:onClick="onButton1"
+        android:enabled="false"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAN AND SPRINKLER OFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#E040FB"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/button2"
+        android:onClick="onButton2"
+        android:enabled="false"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:text="Close App"
+        android:padding="10dp"
+        android:onClick="onFinish"
+        android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
